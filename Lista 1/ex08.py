@@ -37,20 +37,20 @@ balanco = total_renda + total_gastos
 
 print("Movimentações")
 if a != 0:
-    print(f"Alimentação: {a:.2f}")
+    print(f"  Alimentação: %.2f" % a)
 if m != 0:
-    print(f"Moradia: {m:.2f}")
+    print(f"  Moradia: %.2f" % m)
 if t != 0:
-    print(f"Transporte: {t:.2f}")
+    print(f"  Transporte: %.2f" % t)
 if s != 0:
-    print(f"Saúde: {s:.2f}")
+    print(f"  Saúde: %.2f" % s)
 if l != 0:
-    print(f"Lazer: {l:.2f}")
+    print(f"  Lazer: %.2f" % l)
 if sa != 0:
-    print(f"Salário: {sa:.2f}")
+    print(f"  Salário: %.2f" % sa)
 if p != 0:
-    print(f"Prestação de serviços: {p:.2f}")
+    print(f"  Prestação de serviços: %.2f" % p)
 
-print(f"Total de Renda: {total_renda:.2f}")
-print(f"Total de Gastos: {total_gastos:.2f}")
-print(f"Balanço: {balanco:.2f}")
+print(f"Total de Renda: %.2f" % total_renda)
+print(f"Total de Gastos: %.2f" % total_gastos)
+print(f"Balanço: %.2f" % balanco)
